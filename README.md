@@ -1,8 +1,18 @@
+```
+ ███╗   ███╗███████╗████████╗ █████╗ ██████╗  █████╗ ████████╗ █████╗
+ ████╗ ████║██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗
+ ██╔████╔██║█████╗     ██║   ███████║██║  ██║███████║   ██║   ███████║
+ ██║╚██╔╝██║██╔══╝     ██║   ██╔══██║██║  ██║██╔══██║   ██║   ██╔══██║
+ ██║ ╚═╝ ██║███████╗   ██║   ██║  ██║██████╔╝██║  ██║   ██║   ██║  ██║
+ ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝
+                           V 1
+```
+
 # metadata-tools
 
 Scanner metadata sederhana untuk mengaudit file **gambar (JPG/PNG/dll), PDF, dan DOCX** sebelum dibagikan ke publik. Tool ini membantu menemukan informasi tersembunyi di dalam file — seperti nama penulis, software yang dipakai, lokasi GPS, atau nama orang yang terakhir mengedit dokumen — yang seringkali tidak sengaja ikut terbawa saat file di-upload atau dikirim.
 
-> ⚠️ Gunakan hanya pada file milikmu sendiri atau file yang kamu punya izin untuk diaudit.
+
 
 ## Fitur
 
