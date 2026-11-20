@@ -1,5 +1,24 @@
 #!/usr/bin/env python3
 """
+metadata_scanner.py - Metadata Leak Scanner
+
+Audit metadata tersembunyi di file (gambar, PDF, DOCX) sebelum kamu publish/kirim
+ke orang lain. Berguna buat cek kebocoran info: nama penulis, software yang dipakai,
+lokasi GPS di foto, histori edit dokumen, dll.
+
+Didukung:
+  - Gambar: JPG, PNG, TIFF, dll (EXIF via Pillow, termasuk GPS)
+  - PDF    : info dictionary (Author, Producer, CreationDate, dll) - parser manual
+  - DOCX   : core.xml & app.xml (Author, Last Modified By, Company, dll)
+
+Pemakaian:
+  python3 metadata_scanner.py scan file1.jpg file2.pdf file3.docx
+  python3 metadata_scanner.py scan ./folder_dokumen/ --recursive
+  python3 metadata_scanner.py scan ./folder/ -o report.json
+
+Hanya untuk file milikmu sendiri atau yang kamu punya izin audit.
+"""
+
 import argparse
 import json
 import re
